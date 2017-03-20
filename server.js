@@ -4,9 +4,6 @@ var express = require('express'),
     low = require('lowdb'),
     uuid = require('uuid'),
     bodyParser = require('body-parser'),
-    // Flickr = require("node-flickr"), // For gallery https://www.npmjs.com/package/node-flickr
-    // TweetTweet = require('tweet-tweet'), // To be implemented later, for autotweeting - https://www.npmjs.com/package/tweet-tweet
-    // RSS = require('rss'), // To be implemented later, for rss feeds - https://www.npmjs.com/package/rss
     app = express();
 
 
